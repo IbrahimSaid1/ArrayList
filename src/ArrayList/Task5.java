@@ -1,11 +1,12 @@
 package ArrayList;
 
+import java.util.Arrays;
 
 public class Task5 {
 
 	public static void main(String[] args) {
-		int[] arr = {1,1,2,2,3,3,4,4};
-		
+		int[] arr = {4,4,3,3,2,2,1,1};
+		Arrays.sort(arr);   
 		for(int i=0; i< arr.length-1 ; i++)  {
 		
 			if(arr[i] == arr[i+1]) {
